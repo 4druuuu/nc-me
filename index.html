@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutrition Club Berkah</title>
+
+    <!-- Logo Web -->
+    <link
+      class="logoweb"
+      rel="icon"
+      href="asset/img/img-property/Logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/responsive.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/4c729db828.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <a href="#"
+          ><img src="asset/img/img-property/Logo.png" alt="NC Berkah"
+        /></a>
+      </div>
+      <nav>
+        <div class="menu">
+          <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#about">Tentang Kami</a></li>
+            <li><a href="#kegiatanme">Kegiatan</a></li>
+            <li><a href="#kontakme">Kontak</a></li>
+          </ul>
+        </div>
+        <button class="dark" onclick="toggleDarkMode()">
+          <ion-icon name="moon-outline" class="icon-moon"></ion-icon>
+          <ion-icon name="sunny-outline" class="icon-sun hidden"></ion-icon>
+        </button>
+      </nav>
+      <div class="burger">
+        <div class="Line-1"></div>
+        <div class="Line-2"></div>
+        <div class="Line-3"></div>
+      </div>
+    </div>
+
+    <main>
+      <div class="content" id="home">
+        <img src="asset/img/img-property/1.jpg" alt="Hero Image" />
+      </div>
+      <div class="container-1">
+        <p>Selamat Datang di</p>
+        <div class="text-container">
+          <h2>Nutrition Club Berkah</h2>
+          <h2>Nutrition Club Berkah</h2>
+        </div>
+      </div>
+
+      <article id="about" class="hide">
+        <div class="aboutme">
+          <h2>Tentang Kami</h2>
+          <p>
+            Selamat datang di NC Berkah! NC Berkah ini merupakan suatu
+            organisasi yang berdedikasi untuk meningkatkan kesejahteraan dan
+            kesehatan hidup masyarakat melalui produk-produk nutrisi yang
+            berkualitas tinggi dan inovatif. Dengan pengalaman lebih dari 40
+            tahun, kami telah membantu jutaan orang di seluruh dunia mencapai
+            tujuan kesehatan dan kebugaran mereka.Kami percaya bahwa setiap
+            orang berhak untuk hidup sehat dan bahagia. Misi kami adalah
+            menyediakan solusi nutrisi yang terbaik dan mendukung gaya hidup
+            aktif yang positif. Kami berkomitmen untuk memberikan produk-produk
+            yang aman, efektif, dan didukung oleh ilmu pengetahuan terkini.
+          </p>
+          <br />
+          <p>
+            Kualitas adalah prioritas utama kami. Setiap produk Herbalife
+            diproduksi dengan standar tertinggi dan melalui proses pengujian
+            yang ketat untuk memastikan keamanan dan efektivitasnya. Kami
+            bekerja sama dengan para ahli nutrisi dan ilmuwan untuk
+            mengembangkan produk yang benar-benar bermanfaat bagi kesehatan
+            Anda. Kami senang mendengar dari Anda! Jika Anda memiliki pertanyaan
+            atau ingin mengetahui lebih lanjut tentang produk dan layanan kami,
+            jangan ragu untuk menghubungi kami. Tim kami siap membantu Anda
+            mencapai tujuan kesehatan dan kebugaran Anda.
+          </p>
+        </div>
+      </article>
+
+      <!-- <section class="produk hide" id="produk">
+        <div class="produk-info hide">
+          <button class="btn-produk">
+            <a href="produk.html"> <span>Iihat Produk</span></a>
+          </button>
+        </div>
+      </section> -->
+
+      <div class="line"></div>
+
+      <!-- Kegiatan -->
+      <article id="kegiatanme">
+        <div class="kegiatan">
+          <h2>Kegiatan</h2>
+          <div class="kegiatan-img hide">
+            <img src="asset/img/kegiatan/2.jpg" alt="" />
+            <img src="asset/img/kegiatan/3.jpg" alt="" />
+            <img src="asset/img/kegiatan/2.jpg" alt="" />
+            <img src="asset/img/kegiatan/3.jpg" alt="" />
+            <img src="asset/img/kegiatan/6.jpg" alt="" />
+            <img src="asset/img/kegiatan/5.jpg" alt="" />
+            <img src="asset/img/kegiatan/6.jpg" alt="" />
+            <img src="asset/img/kegiatan/5.jpg" alt="" />
+            <img src="asset/img/kegiatan/5.jpg" alt="" />
+          </div>
+          <div class="load-more">
+            <button class="btn-produk">
+              <span>Load More</span>
+            </button>
+            <div class="loading-spinner"></div>
+          </div>
+        </div>
+      </article>
+
+      <div class="line"></div>
+
+      <!-- Kontak -->
+      <article id="kontakme">
+        <div class="kontak">
+          <h2>Kontak Kami</h2>
+          <p>
+            Jika ada pertanyaan atau ingin mengetahui lebih lanjut tentang
+            produk dan layanan, jangan ragu untuk menghubungi kami. Kami siap
+            membantu Anda mencapai tujuan kesehatan dan kebugaran Anda.
+          </p>
+          <div class="location">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15862.391153160037!2d106.71549!3d-6.316447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e5b85cab05fd%3A0x9482e77000a7443b!2sNUTRITION%20Club%20Berkah!5e0!3m2!1sid!2sid!4v1720493119528!5m2!1sid!2sid"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="contact-us">
+            <div class="row">
+              <div class="contact-col">
+                <div>
+                  <i class="fa fa-home"></i>
+                  <span>
+                    <h5>
+                      Jl. Bukit Indah No.6, Serua, Kec. Ciputat, Kota Tangerang
+                      Selatan, Banten 15414
+                    </h5>
+                  </span>
+                </div>
+
+                <div>
+                  <i class="fa fa-whatsapp"></i>
+                  <span>
+                    <h5>0813-9830-7800</h5>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="info">
+        <button class="btn-produk">
+          <a href="https://wa.me/+6281398307800" target="_blank">
+            <span>Informasi lebih lanjut </span></a
+          >
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 All Rights Reserved - NC Berkah</p>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="asset/js/script.js"></script>
+
+    <!-- Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
